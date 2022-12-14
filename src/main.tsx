@@ -8,7 +8,7 @@ import { Routes } from "./routes";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ChakraProvider theme={theme}>
+    <ChakraProvider resetCSS theme={theme}>
       <Routes />
     </ChakraProvider>
   </React.StrictMode>
